@@ -84,7 +84,7 @@ public class Vehicle {
     public DescentEvent getStatus(int tick) {
         // create a return a new DescentEvent object
         // filled in with the state of the vehicle.
-        return new DescentEvent(tick, this.Velocity,this.Fuel,this.Altitude,Flying);
+        return new DescentEvent(tick, Velocity, Fuel, Altitude, Flying);
     }
 
 }
